@@ -9,23 +9,49 @@
 /* Begin PBXBuildFile section */
 		B719F7E8298FD3760092D764 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B719F7E7298FD3760092D764 /* AppDelegate.swift */; };
 		B719F7EA298FD3760092D764 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B719F7E9298FD3760092D764 /* SceneDelegate.swift */; };
-		B719F7EC298FD3760092D764 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B719F7EB298FD3760092D764 /* ViewController.swift */; };
-		B719F7EF298FD3760092D764 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B719F7ED298FD3760092D764 /* Main.storyboard */; };
 		B719F7F2298FD3760092D764 /* WalletApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B719F7F0298FD3760092D764 /* WalletApp.xcdatamodeld */; };
 		B719F7F4298FD3770092D764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B719F7F3298FD3770092D764 /* Assets.xcassets */; };
 		B719F7F7298FD3770092D764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B719F7F5298FD3770092D764 /* LaunchScreen.storyboard */; };
+		B719F804298FD5E90092D764 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B719F802298FD5E90092D764 /* HomeVC.swift */; };
+		B719F805298FD5E90092D764 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B719F803298FD5E90092D764 /* HomeVC.xib */; };
+		B719F809298FD76E0092D764 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B719F808298FD76E0092D764 /* HomeVM.swift */; };
+		B719F80B298FD7B20092D764 /* TotalCostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B719F80A298FD7B20092D764 /* TotalCostCell.swift */; };
+		B719F80D298FD7D60092D764 /* TotalCostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B719F80C298FD7D60092D764 /* TotalCostCell.xib */; };
+		B719F811298FDB3F0092D764 /* SpendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B719F810298FDB3F0092D764 /* SpendCell.swift */; };
+		B719F813298FDB530092D764 /* SpendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B719F812298FDB530092D764 /* SpendCell.xib */; };
+		B719F815298FDBA10092D764 /* SpendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B719F814298FDBA10092D764 /* SpendModel.swift */; };
+		B719F818298FDC730092D764 /* UIViewController + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B719F817298FDC730092D764 /* UIViewController + Extensions.swift */; };
+		B719F81C298FDCCD0092D764 /* CreateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B719F81A298FDCCD0092D764 /* CreateVC.swift */; };
+		B719F81D298FDCCD0092D764 /* CreateVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B719F81B298FDCCD0092D764 /* CreateVC.xib */; };
+		B719F81F298FDCF40092D764 /* CreateVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B719F81E298FDCF40092D764 /* CreateVM.swift */; };
+		B719F822298FDDA30092D764 /* CreateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B719F821298FDDA30092D764 /* CreateCell.swift */; };
+		B719F824298FDDC00092D764 /* CreateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B719F823298FDDC00092D764 /* CreateCell.xib */; };
+		B719F827298FDEFF0092D764 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B719F826298FDEFF0092D764 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B719F7E4298FD3760092D764 /* WalletApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalletApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B719F7E7298FD3760092D764 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B719F7E9298FD3760092D764 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B719F7EB298FD3760092D764 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B719F7EE298FD3760092D764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B719F7F1298FD3760092D764 /* WalletApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WalletApp.xcdatamodel; sourceTree = "<group>"; };
 		B719F7F3298FD3770092D764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B719F7F6298FD3770092D764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B719F7F8298FD3770092D764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B719F802298FD5E90092D764 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		B719F803298FD5E90092D764 /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		B719F808298FD76E0092D764 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		B719F80A298FD7B20092D764 /* TotalCostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalCostCell.swift; sourceTree = "<group>"; };
+		B719F80C298FD7D60092D764 /* TotalCostCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TotalCostCell.xib; sourceTree = "<group>"; };
+		B719F810298FDB3F0092D764 /* SpendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendCell.swift; sourceTree = "<group>"; };
+		B719F812298FDB530092D764 /* SpendCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpendCell.xib; sourceTree = "<group>"; };
+		B719F814298FDBA10092D764 /* SpendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendModel.swift; sourceTree = "<group>"; };
+		B719F817298FDC730092D764 /* UIViewController + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extensions.swift"; sourceTree = "<group>"; };
+		B719F81A298FDCCD0092D764 /* CreateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateVC.swift; sourceTree = "<group>"; };
+		B719F81B298FDCCD0092D764 /* CreateVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateVC.xib; sourceTree = "<group>"; };
+		B719F81E298FDCF40092D764 /* CreateVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateVM.swift; sourceTree = "<group>"; };
+		B719F821298FDDA30092D764 /* CreateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCell.swift; sourceTree = "<group>"; };
+		B719F823298FDDC00092D764 /* CreateCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateCell.xib; sourceTree = "<group>"; };
+		B719F826298FDEFF0092D764 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +84,125 @@
 		B719F7E6298FD3760092D764 /* WalletApp */ = {
 			isa = PBXGroup;
 			children = (
-				B719F7E7298FD3760092D764 /* AppDelegate.swift */,
-				B719F7E9298FD3760092D764 /* SceneDelegate.swift */,
-				B719F7EB298FD3760092D764 /* ViewController.swift */,
-				B719F7ED298FD3760092D764 /* Main.storyboard */,
-				B719F7F3298FD3770092D764 /* Assets.xcassets */,
-				B719F7F5298FD3770092D764 /* LaunchScreen.storyboard */,
-				B719F7F8298FD3770092D764 /* Info.plist */,
+				B719F825298FDEED0092D764 /* CoreDataManager */,
+				B719F816298FDC640092D764 /* Extensions */,
+				B719F801298FD5CC0092D764 /* Model */,
+				B719F7FF298FD5B90092D764 /* Assets */,
+				B719F7FE298FD5B00092D764 /* App */,
+				B719F800298FD5C40092D764 /* UI */,
 				B719F7F0298FD3760092D764 /* WalletApp.xcdatamodeld */,
 			);
 			path = WalletApp;
+			sourceTree = "<group>";
+		};
+		B719F7FE298FD5B00092D764 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B719F7E7298FD3760092D764 /* AppDelegate.swift */,
+				B719F7E9298FD3760092D764 /* SceneDelegate.swift */,
+				B719F7F8298FD3770092D764 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B719F7FF298FD5B90092D764 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B719F7F3298FD3770092D764 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B719F800298FD5C40092D764 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B719F819298FDCBA0092D764 /* Create */,
+				B719F806298FD7450092D764 /* Home */,
+				B719F7F5298FD3770092D764 /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B719F801298FD5CC0092D764 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B719F814298FDBA10092D764 /* SpendModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B719F806298FD7450092D764 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B719F807298FD74D0092D764 /* Cells */,
+				B719F802298FD5E90092D764 /* HomeVC.swift */,
+				B719F803298FD5E90092D764 /* HomeVC.xib */,
+				B719F808298FD76E0092D764 /* HomeVM.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B719F807298FD74D0092D764 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B719F80F298FDB2F0092D764 /* Spend Cell */,
+				B719F80E298FDB220092D764 /* Cash Cell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B719F80E298FDB220092D764 /* Cash Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B719F80A298FD7B20092D764 /* TotalCostCell.swift */,
+				B719F80C298FD7D60092D764 /* TotalCostCell.xib */,
+			);
+			path = "Cash Cell";
+			sourceTree = "<group>";
+		};
+		B719F80F298FDB2F0092D764 /* Spend Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B719F810298FDB3F0092D764 /* SpendCell.swift */,
+				B719F812298FDB530092D764 /* SpendCell.xib */,
+			);
+			path = "Spend Cell";
+			sourceTree = "<group>";
+		};
+		B719F816298FDC640092D764 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B719F817298FDC730092D764 /* UIViewController + Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B719F819298FDCBA0092D764 /* Create */ = {
+			isa = PBXGroup;
+			children = (
+				B719F820298FDD990092D764 /* Create Cell */,
+				B719F81A298FDCCD0092D764 /* CreateVC.swift */,
+				B719F81B298FDCCD0092D764 /* CreateVC.xib */,
+				B719F81E298FDCF40092D764 /* CreateVM.swift */,
+			);
+			path = Create;
+			sourceTree = "<group>";
+		};
+		B719F820298FDD990092D764 /* Create Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B719F821298FDDA30092D764 /* CreateCell.swift */,
+				B719F823298FDDC00092D764 /* CreateCell.xib */,
+			);
+			path = "Create Cell";
+			sourceTree = "<group>";
+		};
+		B719F825298FDEED0092D764 /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				B719F826298FDEFF0092D764 /* CoreDataManager.swift */,
+			);
+			path = CoreDataManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,8 +264,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B719F7F7298FD3770092D764 /* LaunchScreen.storyboard in Resources */,
+				B719F824298FDDC00092D764 /* CreateCell.xib in Resources */,
+				B719F805298FD5E90092D764 /* HomeVC.xib in Resources */,
+				B719F81D298FDCCD0092D764 /* CreateVC.xib in Resources */,
+				B719F80D298FD7D60092D764 /* TotalCostCell.xib in Resources */,
 				B719F7F4298FD3770092D764 /* Assets.xcassets in Resources */,
-				B719F7EF298FD3760092D764 /* Main.storyboard in Resources */,
+				B719F813298FDB530092D764 /* SpendCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,8 +281,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				B719F7F2298FD3760092D764 /* WalletApp.xcdatamodeld in Sources */,
-				B719F7EC298FD3760092D764 /* ViewController.swift in Sources */,
+				B719F818298FDC730092D764 /* UIViewController + Extensions.swift in Sources */,
+				B719F81C298FDCCD0092D764 /* CreateVC.swift in Sources */,
+				B719F809298FD76E0092D764 /* HomeVM.swift in Sources */,
+				B719F81F298FDCF40092D764 /* CreateVM.swift in Sources */,
+				B719F804298FD5E90092D764 /* HomeVC.swift in Sources */,
 				B719F7E8298FD3760092D764 /* AppDelegate.swift in Sources */,
+				B719F827298FDEFF0092D764 /* CoreDataManager.swift in Sources */,
+				B719F822298FDDA30092D764 /* CreateCell.swift in Sources */,
+				B719F811298FDB3F0092D764 /* SpendCell.swift in Sources */,
+				B719F80B298FD7B20092D764 /* TotalCostCell.swift in Sources */,
+				B719F815298FDBA10092D764 /* SpendModel.swift in Sources */,
 				B719F7EA298FD3760092D764 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,14 +299,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B719F7ED298FD3760092D764 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B719F7EE298FD3760092D764 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B719F7F5298FD3770092D764 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -293,10 +433,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L24C9CN3G6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WalletApp/Info.plist;
+				INFOPLIST_FILE = WalletApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -321,10 +460,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L24C9CN3G6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WalletApp/Info.plist;
+				INFOPLIST_FILE = WalletApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

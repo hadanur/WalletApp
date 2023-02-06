@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SpendCell" customModule="WalletApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="334" height="150"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fNI-IU-CGN">
+                    <rect key="frame" x="0.0" y="0.0" width="334" height="150"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Onb-rP-fzE">
+                            <rect key="frame" x="30" y="50" width="35" height="21"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="goU-yU-j8k">
+                            <rect key="frame" x="30" y="101" width="36" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cost" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D6H-mb-TJ2">
+                            <rect key="frame" x="255" y="60" width="49" height="29"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="Onb-rP-fzE" firstAttribute="top" secondItem="fNI-IU-CGN" secondAttribute="top" constant="50" id="42K-nE-FuV"/>
+                        <constraint firstItem="D6H-mb-TJ2" firstAttribute="top" secondItem="fNI-IU-CGN" secondAttribute="top" constant="60" id="4ms-uS-0dc"/>
+                        <constraint firstItem="Onb-rP-fzE" firstAttribute="leading" secondItem="fNI-IU-CGN" secondAttribute="leading" constant="30" id="522-Lj-OkG"/>
+                        <constraint firstAttribute="trailing" secondItem="D6H-mb-TJ2" secondAttribute="trailing" constant="30" id="CYx-1B-Nn7"/>
+                        <constraint firstAttribute="bottom" secondItem="D6H-mb-TJ2" secondAttribute="bottom" constant="61" id="N1k-hc-h4L"/>
+                        <constraint firstItem="goU-yU-j8k" firstAttribute="leading" secondItem="fNI-IU-CGN" secondAttribute="leading" constant="30" id="U7d-7E-2yc"/>
+                        <constraint firstItem="goU-yU-j8k" firstAttribute="top" secondItem="Onb-rP-fzE" secondAttribute="bottom" constant="30" id="c5J-9O-ayP"/>
+                        <constraint firstAttribute="bottom" secondItem="goU-yU-j8k" secondAttribute="bottom" constant="28" id="qCX-Q3-Wmi"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="fNI-IU-CGN" secondAttribute="trailing" id="M4y-Jv-2LS"/>
+                <constraint firstItem="fNI-IU-CGN" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="SHy-Ba-dNB"/>
+                <constraint firstItem="fNI-IU-CGN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="pwm-DY-6zD"/>
+                <constraint firstItem="fNI-IU-CGN" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="xfr-ed-8qT"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="spendCost" destination="D6H-mb-TJ2" id="A8z-YQ-KtM"/>
+                <outlet property="spendDate" destination="goU-yU-j8k" id="vhZ-6B-rZu"/>
+                <outlet property="spendTitle" destination="Onb-rP-fzE" id="0Ld-cp-mbn"/>
+                <outlet property="spendView" destination="fNI-IU-CGN" id="xp1-bu-Mka"/>
+            </connections>
+            <point key="canvasLocation" x="117" y="20"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
